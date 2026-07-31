@@ -127,23 +127,12 @@ python app.py
 ### Model Performance
 | Metric | Value |
 |--------|-------|
-| Accuracy | ~85-90% |
+| Accuracy | 98.54% |
 | Algorithm | Random Forest Classifier |
 | n_estimators | 100 |
 
-### Deployment
-
-#### Render Deployment Steps
-1. Create a Render account at [render.com](https://render.com)
-2. Connect your GitHub repository
-3. Create a new Web Service
-4. Configure settings:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `gunicorn app:app`
-5. Deploy and get the live URL
-
 ### Live Application
-🔗 **Deployed URL:** [https://heart-disease-prediction-api.onrender.com](https://heart-disease-prediction-api.onrender.com)
+🔗 **Deployed URL:** [https://heartdiseasedeployment-y3j5.onrender.com](https://heartdiseasedeployment-y3j5.onrender.com)
 
 ### Conclusion
 
